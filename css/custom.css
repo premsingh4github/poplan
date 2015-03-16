@@ -1,0 +1,6 @@
+/* this is custom stylesheet */
+.header1{
+	background: url(../images/header_bg.gif);
+	height: 155px;
+	border:solid 1px;
+}
