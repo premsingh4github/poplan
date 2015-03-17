@@ -1,6 +1,186 @@
 /* this is custom stylesheet */
+a:hover{
+	text-decoration: none;
+}
+.center{
+	margin-left: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.left{
+	float: left;
+}
+.right{
+	text-align: right;
+}
 .header1{
+	padding-top: 20px;
 	background: url(../images/header_bg.gif);
-	height: 155px;
+	height: 160px;
 	border:solid 1px;
 }
+.header1 .logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.header1 .col-sm-5 .logo{
+
+}
+.header1 input{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	width: 70%;
+	height: 30px;	
+	border-radius: 10px;
+	font-size: 20px;
+	border:none;
+	float: left;
+
+}
+.search{
+	margin-top: 2px;
+}
+.searchbtn{
+	border-radius: 20px;
+}
+.contacto-login{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.login-icon {
+  background: url("../images/images33.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  margin-right: 8px; 
+  width: 80px;
+  display:inline-table;  
+  padding-top: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center; 
+  margin-bottom: 10px;  
+}
+.login-icon-img{
+	margin-right:auto;
+	margin-left: auto;
+	display: table-caption;
+	margin-top: 1px;
+}
+.loginimg{
+	//display: inline;
+}
+.logintext{
+	margin-right: auto;
+	margin-left: auto;
+	width: 30px;
+	display: inline;
+	text-decoration: none;
+	
+}
+.logintext a{
+	color: #696969;
+}
+.menu{
+	//border: solid 1px;
+	//margin-top: 85px;
+}
+@media only screen and (min-width:768px){
+       .menu {
+           float: right;           
+           //width: 466px;
+           border: solid 1px;
+           margin-top: 62px;
+           //margin-right: 85px;
+           
+       }
+       .menu ul{
+       	
+       }
+       .menu ul li{
+       		display: none;
+       }
+       /*
+       .menu ul {
+           float: right;
+           list-style-type: none;
+           
+           //width: 100px;
+       } 
+       .menu ul li{
+       	border:solid 1px;
+       }      
+       .menu li a {
+           background: url("../images/back.gif") repeat-x scroll left top rgba(0, 0, 0, 0);
+           color: #0b0101;
+           float: left;
+           font-family: Verdana,Arial,Helvetica,sans-serif;
+           font-size: 13px;
+           //padding: 12px 20px;
+           position: relative;
+           text-decoration: none;
+           text-transform: uppercase;
+           z-index: 2;
+           border-radius: 4px;
+       }
+       .menu li a:hover {
+           background: url("../images/header1.gif") repeat-x scroll left top rgba(0, 0, 0, 0);
+           border-radius: 5px 5px 0 0;
+           color: #ffffff;
+           position: relative;
+           z-index: 2;
+       }
+       .submenu{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    margin-top: 48px;
+    background-color: #FFF;
+   // min-height: 100px;
+    min-width: 832px;
+    margin-left: -720px;
+    border-radius: 5px;
+     
+}
+ul li:hover .submenu {
+    display: block;
+}
+.submenuTitle{
+    display: inline;
+    width: 137px;
+    //height: 100px;
+    //border: solid 1px;
+    position: relative;
+    float: left;
+}
+.submenuTitle span{
+    color:  #ff9900;
+    text-transform: uppercase;
+    margin-left: 15px;
+    display: block;
+    
+    
+}
+.submenuTitle span a{
+    color: #000;
+    background: none;
+    text-transform: none;
+    margin-left: 15px;
+    display: block;
+   // border: solid 1px;
+   // height: 10px;
+   // text-height: 10px;
+    
+    
+}
+ 
+.submenuTitle span a:hover{
+    color: #000;
+    background: none;
+    font-weight: bold;
+}*/
+       
+    }
+    @
